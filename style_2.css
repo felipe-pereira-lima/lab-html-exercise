@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+/* div.utility-bars */
+.firstDiv {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.secondDiv {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.npmLogo {
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.search {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+
+.search input {
+    height: 30px;
+    width: 100%;
+    min-width: 180px;
+    padding: 1px 1px 1px 11px;
+    background:  rgba(0,0,0,.05);
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    color: rgba( 255, 255, 255, 0.5)
+}
+
+.searchBtn {
+    background:  rgb(251, 62, 68);
+    border-width: 1px;
+    border-radius: 0;
+    border-style: solid;
+    border-color: rgba( 255, 255, 255, 0.5);
+    height: inherit;
+    color: white
+}
+
+.firstSection {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(232,217,217,.3);
+}
+
+.secondSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+.mainFirst {
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.secondaryText {
+    width: 440px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.joinForm {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.plansBtn {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    border-width: 1px;
+    border-radius: 0;
+    border-style: solid;
+    border-color: rgba( 255, 255, 255, 0.5);
+    color: white
+}
+
+.mainSecond {
+    font-size: 20px;
+    display: block;
+    background-color: rgba(255,204,53,.4);
+    background-size: 20px;
+    margin: 0 26%;
+    text-align: center;
+    font-style: italic;
+}
+
+.hexagon {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondaryText2 {
+    width: 400 px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 0 20%;
+}
+
+.thirdSection {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.thirdSectionBlock {
+    max-width: 240px;
+}
+
+.thirdSectionBlockTittle {
+    color: #ED1C24;
+    text-align: left;
+    font-size: 20px;
+}
+
+.thirdSectionBlockPicture {
+    height: 30px;
+    width: 30px;
+}
+
+.thirdSectionBlockText {
+    text-align: left;
+}
+
+.fourthSection {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.org {
+    max-height: 36px;
+    max-width: 340px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    color: white;
+    width:100%;
+    background-color: black;
+    font-weight: bold;
+}
